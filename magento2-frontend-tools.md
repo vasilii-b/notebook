@@ -33,7 +33,8 @@ See [Magento 2 Cache Clean](https://github.com/mage2tv/magento-cache-clean#magen
 
 From CLI
 
-`composer require --dev mage2tv/magento-cache-clean`
+1. `composer require --dev mage2tv/magento-cache-clean`
+2. `bin/magento cache:enable`
 
 ### Usage
 
