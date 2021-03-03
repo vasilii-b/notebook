@@ -36,6 +36,14 @@ From CLI
 1. `composer require --dev mage2tv/magento-cache-clean`
 2. `bin/magento cache:enable`
 
+### Preconditions
+
+Need to install `nodejs` version > 10.8.
+
+`sudo apt-get install nodejs`
+
 ### Usage
 
 `vendor/bin/cache-clean.js --watch`
+
+In case of errors see [known issues](https://github.com/mage2tv/magento-cache-clean#known-issues).
