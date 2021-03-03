@@ -24,3 +24,17 @@ From CLI:
 3. `bin/magento c:d full_page`
 4. `bin/magento s:up`
 5. `bin/magento config:set msp_devtools/general/enabled 1`
+
+## A faster drop in replacement for `bin/magento cache:clean` with a file watcher.
+
+See [Magento 2 Cache Clean](Magento 2 Cache Clean) for more details.
+
+### Installation
+
+From CLI
+
+`composer require --dev mage2tv/magento-cache-clean`
+
+### Usage
+
+`vendor/bin/cache-clean.js --watch`
