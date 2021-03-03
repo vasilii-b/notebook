@@ -27,7 +27,7 @@ From CLI:
 
 ## A faster drop in replacement for `bin/magento cache:clean` with a file watcher.
 
-See [Magento 2 Cache Clean](Magento 2 Cache Clean) for more details.
+See [Magento 2 Cache Clean](https://github.com/mage2tv/magento-cache-clean#magento-2-cache-clean) for more details.
 
 ### Installation
 
