@@ -22,6 +22,8 @@ This allows to see in the browser's code inspector:
 
 ✅ **can be enabled by IP**
 
+⚠️ breaks the `/graphql` endpoint
+
 
 #### Installation
 
