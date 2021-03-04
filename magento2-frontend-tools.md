@@ -20,6 +20,9 @@ This allows to see in the browser's code inspector:
 - ...
 
 
+✅ **can be enabled by IP**
+
+
 #### Installation
 
 From CLI:
@@ -34,6 +37,8 @@ From CLI:
 ### Method 2 - [MGT Developer Toolbar for Magento 2](https://github.com/mgtcommerce/Mgt_Developertoolbar)
 
 ![Showing layout blocks](https://www.mgt-commerce.com/docs/img/mgt-developer-toolbar/magento2/blocks.png)
+
+✅ **can be enabled by IP**
 
 #### Installation
 
