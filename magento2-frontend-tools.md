@@ -1,6 +1,12 @@
 
 ## Magento 2 storefront information in browser
 
+### Method #1 - [MageSpecialist's Chrome Toolbar](https://github.com/magespecialist/mage-chrome-toolbar#magento-chrome-toolbar-for-msp-devtools)
+
+![Magento chrom devtools tab](https://user-images.githubusercontent.com/13456702/109925248-2fac6f80-7cca-11eb-8802-47b1279050b4.png)
+![Inspect element magento details](https://user-images.githubusercontent.com/13456702/109925344-49e64d80-7cca-11eb-890b-31bbcc66f601.png)
+
+
 This allows to see in the browser's code inspector:
 
 - Applied theme
@@ -13,9 +19,8 @@ This allows to see in the browser's code inspector:
 - uiComponents
 - ...
 
-See [MageSpecialist's Chrome Toolbar](https://github.com/magespecialist/mage-chrome-toolbar#magento-chrome-toolbar-for-msp-devtools) for more details.
 
-### Installation
+#### Installation
 
 From CLI:
 
@@ -25,24 +30,34 @@ From CLI:
 4. `bin/magento s:up`
 5. `bin/magento config:set msp_devtools/general/enabled 1`
 
+
+### Method 2 - [MGT Developer Toolbar for Magento 2](https://github.com/mgtcommerce/Mgt_Developertoolbar)
+
+![Showing layout blocks](https://www.mgt-commerce.com/docs/img/mgt-developer-toolbar/magento2/blocks.png)
+
+#### Installation
+
+Follow the steps [here](https://www.mgt-commerce.com/docs/mgt-developer-toolbar/magento2/installation).
+
+
 ## A faster drop in replacement for `bin/magento cache:clean` with a file watcher.
 
 See [Magento 2 Cache Clean](https://github.com/mage2tv/magento-cache-clean#magento-2-cache-clean) for more details.
 
-### Installation
+#### Installation
 
 From CLI
 
 1. `composer require --dev mage2tv/magento-cache-clean`
 2. `bin/magento cache:enable`
 
-### Preconditions
+#### Preconditions
 
 Need to install `nodejs` version > 10.8.
 
 `sudo apt-get install nodejs`
 
-### Usage
+#### Usage
 
 `vendor/bin/cache-clean.js --watch`
 
