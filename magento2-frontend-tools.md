@@ -46,6 +46,12 @@ From CLI:
 
 Follow the steps [here](https://www.mgt-commerce.com/docs/mgt-developer-toolbar/magento2/installation).
 
+**Enable from CLI**
+
+```sh
+bin/magento config:set mgt_developer_toolbar/module/is_enabled 1
+```
+
 
 ## A faster drop in replacement for `bin/magento cache:clean` with a file watcher.
 
